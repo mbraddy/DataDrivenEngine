@@ -1,0 +1,116 @@
+{
+  //  Sector Level
+  "Children": {
+    "type": "table",
+    "class": "GameObject",
+    "value": {
+      //  Avatar Level
+      "Children": {
+        "type": "table",
+        "class": "GameObject",
+        "value": [
+          {
+            "type": "table",
+            "class": "Avatar",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Michael"
+              },
+              "Health": {
+                "type": "integer",
+                "value": 80
+              },
+              "Dps": {
+                "type": "float",
+                "value": 1.5
+              },
+              "Transform": {
+                "type": "matrix",
+                "value": "mat4x4((1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1, 1), (1, 1, 1, 1))"
+              },
+              "Velocity": {
+                "type": "vector",
+                "value": "vec4(1, 1, 1, 1)"
+              },
+              "AuxiliaryTest": {
+                "type": "float",
+                "value": 11.1
+              },
+              "Actions": {
+                "type": "table",
+                "class": "ActionListIf",
+                "value": {
+                  "Condition": {
+                    "type": "integer",
+                    "value": 1
+                  },
+                  "Then": {
+                    "type": "table",
+                    "class": "ActionTestDamage",
+                    "value": {}
+                  },
+                  "Else": {
+                    "type": "table",
+                    "class": "ActionTestHealing",
+                    "value": {}
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "table",
+            "class": "Avatar",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Paul"
+              },
+              "Health": {
+                "type": "integer",
+                "value": 80
+              },
+              "Dps": {
+                "type": "float",
+                "value": 2.5
+              },
+              "Transform": {
+                "type": "matrix",
+                "value": "mat4x4((2, 2, 2, 2), (2, 2, 2, 2), (2, 2, 2, 2), (2, 2, 2, 2))"
+              },
+              "Velocity": {
+                "type": "vector",
+                "value": "vec4(2, 2, 2, 2)"
+              },
+              "AuxiliaryTest": {
+                "type": "float",
+                "value": 22.2
+              },
+              "Actions": {
+                "type": "table",
+                "class": "ActionListIf",
+                "value": {
+                  "Condition": {
+                    "type": "integer",
+                    "value": 0
+                  },
+                  "Then": {
+                    "type": "table",
+                    "class": "ActionTestDamage",
+                    "value": {}
+                  },
+                  "Else": {
+                    "type": "table",
+                    "class": "ActionTestHealing",
+                    "value": {}
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
