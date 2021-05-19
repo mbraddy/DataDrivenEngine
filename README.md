@@ -1,5 +1,3 @@
-"# DataDrivenEngine" 
-
 This C++ Data-Driven Game Engine was developed by me in pursuit of my graduate degree at the Florida Interactive Entertainment Academy. The project was broken down into several segments and all relevant code can be viewed via the GitHub link at the top of the page. Upon completion we were to make a very simple C++ game utilizing the engine. At the bottom of this page will be a demo of the game made in this engine.
 
 Cross Platform Solution - The goal was to educate us on how to build a project for multiple platform targets.
